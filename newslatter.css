@@ -1,0 +1,67 @@
+
+h1 {
+    font-weight: 200;
+}
+
+
+
+#home {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+h2 {
+    font-size: 56px;
+    line-height: 50px;
+}
+
+span {
+    color: rebeccapurple
+}
+
+p {
+    line-height: 50px;
+    max-width: 500px;
+}
+
+
+
+form {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+form [type="submit"] {
+    height: 40px;
+    width: 100%;
+    background-color: blueviolet;
+    color: white;
+    font-weight: bold;
+    text-align: center;
+}
+form [type="submit"]:hover {
+cursor: pointer;
+}
+
+
+input {
+    margin-top: 10px;
+    width: 500px;
+    padding: 15px;
+    border-radius: 10px;
+    border: none;
+    font-size: 20px;
+    
+}
+
+.newslatter {
+    height: 15rem;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    
+}

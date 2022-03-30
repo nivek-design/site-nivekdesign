@@ -1,0 +1,88 @@
+*{
+    padding: 0px;
+    margin: 0;
+    box-sizing: border-box;
+    
+   
+}
+
+body {
+    background-color: rgb(34,34,34);
+    color: white;
+    max-width: 1920 px;
+    margin: 0 auto;
+    padding: 15px;
+    font-family: 'Changa', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+}
+
+header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+main {
+    display: flex;
+    flex-direction: row;
+    margin-top: 100px;
+}
+
+.logo-menu {
+    flex-direction: column;
+    line-height: 30px;
+    margin-left: 5rem;
+    margin-top: 1rem;
+}
+
+.menu-horizontal{
+    margin-right: 5rem;    
+}
+
+.menu-horizontal li {
+    display: inline-block;
+    margin: 20px;
+    
+}
+
+#orcamento-btn {
+    border: 2px solid rgb(132, 14, 201);
+    padding: 10px;
+    border-radius: 10px;
+}
+
+#orcamento-btn:hover{
+    background-color: blueviolet;
+    color: white;
+}
+
+
+a {
+    color: white
+}
+a:hover {
+    color: blueviolet;
+    transition: 0.3s all;
+}
+
+#home {
+    width: 100%;
+    height: 50rem;
+    justify-content: center;
+    align-items: center;
+}
+
+.rodape-contato {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    height: 10rem;
+    width: 100%;
+    align-items: center;
+    margin-top: 10rem;
+   
+    
+    
+}
