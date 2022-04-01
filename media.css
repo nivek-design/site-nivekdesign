@@ -35,6 +35,7 @@
     .newslatter {
         width: 350px;
         height: auto;
+        padding: 2rem;
     }
     .form-newslatter {
         width: 100% !important;
@@ -51,9 +52,22 @@
         height:15rem;
     }
 
+    article { 
+        padding: 0 !important;
+        padding: 2rem !important;
+        
+    }
 
-    article {
-        background-image: none;
+    article h2 { 
+        font-size: 44px !important;
+    }
+
+    body {
+        padding: 0 !important;
+    }
+
+    #home {
+        padding: 1rem;
     }
 
 }
