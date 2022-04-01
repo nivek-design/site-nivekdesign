@@ -83,6 +83,41 @@ a:hover {
     align-items: center;
     margin-top: 10rem;
    
+}
+.imagem-app {
+    width: 100%;
+    height: 68rem;
+    display: flex;
+
+}
+article {
+   /* background-image: url("imagens/aplicativos_celular.jpeg");
+    background-repeat: no-repeat;
+    background-position: bottom;
+    background-size: cover ;*/
+    width: 100%;
+    height: 88vh;
+    
+   
+}
+
+article h2 {
+    display: flex;
+    font-size: 50px;
+    justify-content: space-around;
+    font-family: 'Open Sans', sans-serif;
+    width: 100%;
+    line-height: 3rem;
+    padding: 2rem;
     
     
+}
+
+input {
+    text-align: center;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+    flex-direction: column;
 }
