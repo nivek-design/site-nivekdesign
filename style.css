@@ -6,8 +6,25 @@
    
 }
 
+
+
+#menu {
+    position: relative;
+    right: 0;
+    width: 100%;
+    height: 5rem;
+      
+  }
+
+  #menu:after {
+    background-color:  rgba(102, 51, 153, 0.61);
+  }
+
+  
+
 body {
-    background-color: rgb(34,34,34);
+    background: linear-gradient(to bottom, #323232 0%, #3F3F3F 40%, #1C1C1C 150%), linear-gradient(to top, rgba(255,255,255,0.40) 0%, rgba(0,0,0,0.25) 200%);
+    background-blend-mode: multiply;
     color: white;
     max-width: 1920 px;
     margin: 0 auto;
@@ -34,7 +51,7 @@ main {
     flex-direction: column;
     line-height: 30px;
     margin-left: 5rem;
-    margin-top: 1rem;
+    
 }
 
 .menu-horizontal{
@@ -69,7 +86,7 @@ a:hover {
 
 #home {
     width: 100%;
-    height: 50rem;
+    height: 61rem;
     justify-content: center;
     align-items: center;
 }
@@ -78,10 +95,9 @@ a:hover {
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
-    height: 4rem;
+    height: 24rem;
     width: 100%;
     align-items: center;
-    margin-top: 15rem;
     text-align: center;
    
 }
@@ -93,16 +109,75 @@ a:hover {
 
 }
 article {
-   /* background-image: url("imagens/aplicativos_celular.jpeg");
-    background-repeat: no-repeat;
-    background-position: bottom;
-    background-size: cover ;*/
-    width: 100%;
-    height: 88vh;
+    width: 40%;
+    height: 80vh;
     padding-left: 4rem;
-    
-   
 }
+
+
+
+aside {
+    display: flex;
+    
+}
+
+
+
+#servicos{
+    
+}
+
+#servicos-mobile {
+    height: 70rem;
+    align-items: center;
+    display: inline-grid;
+    width: 100%;
+    transition: 2s;
+    transition-delay: 0.3s;
+}
+
+#servicos-site {
+    height: 60rem;
+    
+    
+}
+
+
+.img-mobile {
+    background: url("imagens/celular-vetor.png");
+    background-size: 55rem auto;
+    background-repeat: no-repeat;
+    background-position: top;
+    height: auto;
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+    transition: 2s;
+    
+}
+
+.img-mobile:hover {
+    background-size: 64rem auto;
+    background-position: initial;
+
+}
+
+.img-mobile-app {
+    background: url("imagens/foto-app-celular.png");
+    background-size:  auto 35rem;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: auto;
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+    transition: 2s;
+}
+
+
+
 article h1 {
     display: flex;
     font-size: 60px;
@@ -111,8 +186,9 @@ article h1 {
     width: 100%;
     padding: 0px !important;
     color: rebeccapurple;
-    
+
 }
+
 
 article h2 {
     display: flex;
@@ -120,11 +196,13 @@ article h2 {
     justify-content: start;
     font-family: 'Open Sans', sans-serif;
     width: 100%;
-    line-height: 3rem;
+    height: auto;
+    line-height: 3.5rem;
     padding: 0px !important;
-    
-    
 }
+
+    
+
 
 input {
     text-align: center;
@@ -148,6 +226,9 @@ input {
     background-size: 50px 50px;
     background-repeat: no-repeat;
     background-size: contain;
-       
     
 }
+
+
+
+

@@ -1,6 +1,7 @@
 @media screen and ( max-width: 999px) {
     header {
         flex-direction: column;
+        margin-top: 1rem;
     }
     main {
         flex-direction: column;
@@ -25,7 +26,7 @@
     .menu-horizontal {
         margin: 0;
         height: 3rem;
-        padding-top: 2rem;
+        padding-top: 1rem;
     }
 
     .logo-menu {
@@ -70,4 +71,8 @@
         padding: 1rem;
     }
 
-}
+    #orcamento-btn {
+        border: 2px solid rebeccapurple;
+        padding: 8px;
+        border-radius: 10px;
+    }
