@@ -5,14 +5,39 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style-orcamento.css">
-    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Changa:wght@400;500;600&family=Open+Sans:ital,wght@0,300;0,400;1,500&display=swap" rel="stylesheet">
+
 
     <title>Orçamento</title>
 </head>
 <body>
     <section>
-        <div>
+        <div class="formulario">
+            
             <h1>Orçamento</h1>
+                <input type="text" name="nome" placeholder="Nome">
+                <input type="text" name="sobrenome" placeholder="Sobrenome">
+                <div class="idade-sexo">
+                    <input type="date" name="idade" placeholder="Data de Nascimento">
+                    <select name="sexo" id="sexo" >
+                        <option value="masculino">Masculino</option>
+                        <option value="Feminino">Feminino</option>
+                    </select>
+                </div>
+                <input type="email" name="email" placeholder="E-mail">
+                <input type="tel" id="tel" name="celular" placeholder="Celular">
+            
+        </div>
+       
+        <div class="info-orcamento">
+            <span>Informações sobre orçamento</span>
+            <textarea name="info-orcamento" rows="5" cols="30" placeholder="Escreva aqui..."></textarea>
+        </div>
+        <div class="botoes">
+            <input type="reset">
+            <input type="submit">
         </div>
     </section>
 </body>

@@ -64,7 +64,7 @@
     }
 
     body {
-        padding: 0 !important;
+        padding:0 !important;
     }
 
     #home {
@@ -76,3 +76,6 @@
         padding: 8px;
         border-radius: 10px;
     }
+
+
+}

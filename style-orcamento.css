@@ -1,0 +1,137 @@
+body {
+    background-color: rebeccapurple;
+}
+section {
+    width: 100%;
+}
+
+h1 {
+    font-size: 36px;
+    text-transform: uppercase;
+    text-align: center;
+    color: white;
+    font-family: 'Open Sans', sans-serif;
+}
+
+span {
+    font-size: 22px;
+    font-family: 'Open Sans', sans-serif;
+   
+}
+
+input { 
+    
+    display: flex;
+    width: 35%;
+    transition: width 0.4s ease-in-out;
+    padding: 8px;
+    border: 0px;
+    border-radius: 4px;
+    margin: 1rem;
+    height: 30px;
+    font-size: 20px;
+    
+}
+
+input:focus {
+    background-color: rgba(65, 0, 102, 0.685) ;
+    color: white;
+    border: 3px solid rgba(70, 2, 109, 0.685) ;
+    width: 40%;
+    
+}
+
+.formulario {
+    display: grid;
+    justify-items: center;
+    width: 100%;
+    border: 0px ;
+    
+}
+
+.info-orcamento {
+    display: grid;
+    justify-items: center;
+    width: 100%;
+    border: 0px ;
+    border-bottom: 10px;
+    color: white;
+    
+}
+
+.botoes {
+    display: flex;
+    justify-items: center;
+    justify-content: center;
+    width: 100%;
+    border: 0px ;
+    border-bottom: 10px;
+    
+}
+
+input[type=submit]:hover {
+    background-color:rgb(0, 121, 20) ;
+    color: white;
+}
+input[type=reset]:hover {
+    background-color:rgb(146, 1, 1) ;
+    color: white;
+}
+
+.idade-sexo {
+    
+    display: inline-flex;
+}
+
+select {
+    width: 150px;
+    display: flex;
+    padding: 8px ;
+    border: none;
+    border-radius: 4px;
+    
+    margin: 1rem;
+    height: 50px;
+    text-align: center;
+    font-size: 20px;
+}
+select:hover {
+    background-color:rgba(65, 0, 102, 0.685) ;
+    color: white;
+}
+
+input[type=submit] {
+    width: 6rem;
+    justify-content: center;
+    align-content: center;
+    display: flex;
+    flex-wrap: wrap;
+}
+input[type=reset] {
+    width: 6rem;
+    justify-content: center;
+    align-content: center;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+textarea {
+    padding: 10px;
+    max-width: 100%;
+    line-height: 1.5;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    box-shadow: 1px 1px 1px #999;
+    width: 35%;
+    height: 280px;
+    margin-top: 1rem;
+}
+
+input[type=date] {
+    width: 10rem;
+    justify-content: center;
+}
+
+.info-orcamento span {
+    margin-top: 2rem;
+}
