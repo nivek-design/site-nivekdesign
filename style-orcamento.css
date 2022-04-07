@@ -46,7 +46,11 @@ input:focus {
     justify-items: center;
     width: 100%;
     border: 0px ;
-    
+    background-image: url("imagens/formulario-de-registro.png");
+    background-size: 100px 100px;
+    background-repeat: no-repeat;
+    background-position: initial;
+    background-position-x: 30%;
 }
 
 .info-orcamento {

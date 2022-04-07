@@ -122,11 +122,6 @@ aside {
 }
 
 
-
-#servicos{
-    
-}
-
 #servicos-mobile {
     height: 70rem;
     align-items: center;
@@ -230,5 +225,27 @@ input {
 }
 
 
+.icon-redes-sociais {
+    display: inline-flex;
+    width: 100%;
+    height: auto;
+    justify-content: center;
+    padding-top: 50px;
+    list-style: none;
+    
+}
+
+.icon-redes-sociais li {
+    padding: 10px;
+}
+
+.tex-icon-redes-sociais{
+    display: flex;
+    justify-content: center;
+    text-transform: uppercase;
+    color: rgb(0, 0, 0);
+    font-size: 14px;
+    
+}
 
 
