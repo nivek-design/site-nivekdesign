@@ -6,13 +6,26 @@
    
 }
 
+html{
+    scroll-behavior: smooth;
+}
 
+section {
+    height: 100vh ;
+    width: 100% ;
+    align-content: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
 
 #menu {
-    position: relative;
+    position: fixed;
     right: 0;
     width: 100%;
     height: 5rem;
+
       
   }
 
@@ -86,144 +99,10 @@ a:hover {
 
 #home {
     width: 100%;
-    height: 61rem;
+    height: 100vh;
     justify-content: center;
     align-items: center;
 }
-
-.rodape-contato {
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
-    height: 24rem;
-    width: 100%;
-    align-items: center;
-    text-align: center;
-   
-}
-
-.imagem-app {
-    width: 100%;
-    height: 68rem;
-    display: flex;
-
-}
-article {
-    width: 40%;
-    height: 80vh;
-    padding-left: 4rem;
-}
-
-
-
-aside {
-    display: flex;
-    
-}
-
-
-#servicos-mobile {
-    height: 70rem;
-    align-items: center;
-    display: inline-grid;
-    width: 100%;
-    transition: 2s;
-    transition-delay: 0.3s;
-}
-
-#servicos-site {
-    height: 60rem;
-    
-    
-}
-
-
-.img-mobile {
-    background: url("imagens/celular-vetor.png");
-    background-size: 55rem auto;
-    background-repeat: no-repeat;
-    background-position: top;
-    height: auto;
-    width: 100%;
-    height: auto;
-    display: flex;
-    flex-wrap: wrap;
-    transition: 2s;
-    
-}
-
-.img-mobile:hover {
-    background-size: 64rem auto;
-    background-position: initial;
-
-}
-
-.img-mobile-app {
-    background: url("imagens/foto-app-celular.png");
-    background-size:  auto 35rem;
-    background-repeat: no-repeat;
-    background-position: center;
-    height: auto;
-    width: 100%;
-    height: auto;
-    display: flex;
-    flex-wrap: wrap;
-    transition: 2s;
-}
-
-
-
-article h1 {
-    display: flex;
-    font-size: 60px;
-    justify-content: start;
-    font-family: 'Open Sans', sans-serif;
-    width: 100%;
-    padding: 0px !important;
-    color: rebeccapurple;
-
-}
-
-
-article h2 {
-    display: flex;
-    font-size: 50px;
-    justify-content: start;
-    font-family: 'Open Sans', sans-serif;
-    width: 100%;
-    height: auto;
-    line-height: 3.5rem;
-    padding: 0px !important;
-}
-
-    
-
-
-input {
-    text-align: center;
-    display: flex;
-    justify-content: space-evenly;
-    align-items: center;
-    flex-wrap: wrap;
-    flex-direction: column;
-}
-
-#whatsapp {
-    background: url("imagens/whatsapp.png");
-    background-size: 50px 50px;
-    background-repeat: no-repeat;
-    background-size: contain;
-    
-}
-
-#email {
-    background: url("imagens/gmail.png");
-    background-size: 50px 50px;
-    background-repeat: no-repeat;
-    background-size: contain;
-    
-}
-
 
 .icon-redes-sociais {
     display: inline-flex;
@@ -248,4 +127,143 @@ input {
     
 }
 
+#servicos {
+    width: 100%;
+    padding: 50px;
+    display: block;
+    height: 200vh;
+}
+.mobile{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 
+}
+
+.text-mobile {
+    width: 30%;
+}
+.img-mobile {
+  background-image: url("imagens/celular-vetor-editado2.png");
+  height: 400px;
+  width: 50%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  display: flex;
+  position: static;
+  transition-delay: .3s;
+  transition: .3s;
+}
+
+.img-mobile:hover {
+    height: 410px;
+    width: 52%;
+    transition: .3s;
+
+    
+
+}
+
+.mobile h1 {
+    color: rebeccapurple ;
+    font-size: 50px;
+    margin-bottom: 1rem;
+    
+}
+.mobile h2 {
+    line-height: 3.5rem;
+}
+
+.site {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+}
+
+
+.img-site {
+
+}
+
+.site h1 {
+    color: rebeccapurple ;
+    font-size: 50px;
+    margin-bottom: 1rem;
+}
+
+.site h2 {
+    line-height: 4rem;
+}
+
+
+input {
+    text-align: center;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+
+
+#ui-ux {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100%;
+    
+}
+
+.ui {
+    width: 50% ;
+    padding: 50px;
+
+}
+.ux {
+    width: 50% ;
+    padding: 50px;
+}
+
+article h1 {
+    
+    font-size: 50px;
+    justify-content: start;
+    font-family: 'Open Sans', sans-serif;
+    padding: 0px !important;
+    color: rebeccapurple;
+    margin-bottom: 1rem;
+
+}
+
+
+article h2 {
+    
+    font-size: 40px;
+    justify-content: start;
+    font-family: 'Open Sans', sans-serif;
+    height: auto;
+    line-height: 3.5rem;
+    padding: 0px !important;
+}
+
+
+
+
+.rodape-contato {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    height: 10vh !important;
+    width: 100%;
+    align-items: center;
+    text-align: center;
+   
+}

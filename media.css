@@ -1,10 +1,15 @@
-@media screen and ( max-width: 999px) {
+@media screen and ( max-width: 1024px) {
     header {
         flex-direction: column;
         margin-top: 1rem;
     }
     main {
         flex-direction: column;
+    }
+
+    section {
+        display: flex;
+        flex-wrap: wrap;
     }
 
     h2 {
@@ -33,19 +38,23 @@
         margin-left: 0px;
     }
 
+    #ui-ux {
+        flex-wrap: wrap;
+    }
+
     .newslatter {
+        width: 100%;
+        display: block;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        margin: none;
         width: 350px;
         height: auto;
         padding: 2rem;
     }
-    .form-newslatter {
-        width: 100% !important;
-        max-height: 8rem;
-    }
 
-    .form-newslatter input {
-        width: 100% !important;
-    }
 
 
     .rodape-contato { 
@@ -76,6 +85,14 @@
         padding: 8px;
         border-radius: 10px;
     }
+
+    .img-mobile {
+        background-size: 28rem auto;
+    }
+    .img-mobile:hover {
+        background-size: 32rem auto;
+    }
+
 
 
 }
